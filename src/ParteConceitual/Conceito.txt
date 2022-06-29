@@ -1,0 +1,21 @@
+1) O que são Design Patterns? Por que é interessante utilizá-los?
+Design patters, basicamente, são formas eficientes (de arquitetura/design de software) que programadores encontraram para resolverem
+problemas do dia a dia.
+
+2) Quais são os tipos de Design Patterns?
+Os tipos de patterns são: creational patterns, que são padrões que auxiliam com problemas relacionados a construção/referencia de objetos.
+structural patterns, padrões relacionados a objetos e como eles interagem entre si na formação de objetos mais complexos.
+por ultimo, não menos importante, behavioral patterns, soluções indicados ao comportamento/comunicação de objetos.
+
+3) Para cada tipo de Design Pattern acima, cite 1 Design Pattern.
+ 3.1) Para cada Design Pattern citado, explique com suas palavras o motivo de sua utilização em um projeto de Software.
+
+Creational pattern: Builder, ele permite criar um objeto passo a passo, não precisando criar uma instancia gigante.
+O código ganha mais linhas, mas é o preço da legibilidade. O comportamento do lombok se assemelha muito a esse pattern.
+
+Structural patterns: Bridge, ele permite dividr uma classe grande (monolitica) ou uma grande acoplação de classes em hierarquias separadas em abstração e implementação,
+podendo ser desenvolvida uma independente da outra.
+É possível que a utilização desse código acabe gerando complexidade a classes coesas, ou seja, dividir um objeto que já tenha uma responsabilidade unica bem definida.
+
+Behavioral patterns: Strategy, ele permite criar diferentes abordagens para cada tipo de situação ligada a uma ação.
+Esse pattern ajuda a reduzir o uso de linhas em uma unico metodo, visto que ele delega as abordagens de cada situações a suas respectivas classes que sabem como tratar o problema.
